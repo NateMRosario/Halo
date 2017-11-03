@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		81F6AC9A1FACB72200920F3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F6AC991FACB72200920F3C /* AppDelegate.swift */; };
 		81F6AC9C1FACB72200920F3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F6AC9B1FACB72200920F3C /* ViewController.swift */; };
 		81F6AC9F1FACB72200920F3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81F6AC9D1FACB72200920F3C /* Main.storyboard */; };
@@ -30,11 +31,37 @@
 			containerPortal = 81F6AC8E1FACB72200920F3C /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 81F6AC951FACB72200920F3C;
+=======
+		81196AAE1FACB5500011E690 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81196AAD1FACB5500011E690 /* AppDelegate.swift */; };
+		81196AB01FACB5500011E690 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81196AAF1FACB5500011E690 /* ViewController.swift */; };
+		81196AB31FACB5500011E690 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81196AB11FACB5500011E690 /* Main.storyboard */; };
+		81196AB51FACB5500011E690 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81196AB41FACB5500011E690 /* Assets.xcassets */; };
+		81196AB81FACB5500011E690 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81196AB61FACB5500011E690 /* LaunchScreen.storyboard */; };
+		81196AC31FACB5500011E690 /* HaloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81196AC21FACB5500011E690 /* HaloTests.swift */; };
+		81196ACE1FACB5500011E690 /* HaloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81196ACD1FACB5500011E690 /* HaloUITests.swift */; };
+		81196ADC1FACB5FB0011E690 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 81196ADB1FACB5FB0011E690 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81196ABF1FACB5500011E690 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81196AA21FACB5500011E690 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81196AA91FACB5500011E690;
+			remoteInfo = Halo;
+		};
+		81196ACA1FACB5500011E690 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81196AA21FACB5500011E690 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81196AA91FACB5500011E690;
+>>>>>>> refs/remotes/origin/master
 			remoteInfo = Halo;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
 		81F6AC961FACB72200920F3C /* Halo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Halo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81F6AC991FACB72200920F3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81F6AC9B1FACB72200920F3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,20 +80,48 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		81F6AC931FACB72200920F3C /* Frameworks */ = {
+=======
+		81196AAA1FACB5500011E690 /* Halo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Halo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81196AAD1FACB5500011E690 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81196AAF1FACB5500011E690 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		81196AB21FACB5500011E690 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81196AB41FACB5500011E690 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81196AB71FACB5500011E690 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81196AB91FACB5500011E690 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81196ABE1FACB5500011E690 /* HaloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81196AC21FACB5500011E690 /* HaloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaloTests.swift; sourceTree = "<group>"; };
+		81196AC41FACB5500011E690 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81196AC91FACB5500011E690 /* HaloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81196ACD1FACB5500011E690 /* HaloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaloUITests.swift; sourceTree = "<group>"; };
+		81196ACF1FACB5500011E690 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81196ADB1FACB5FB0011E690 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81196AA71FACB5500011E690 /* Frameworks */ = {
+>>>>>>> refs/remotes/origin/master
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+<<<<<<< HEAD
 		81F6ACA71FACB72200920F3C /* Frameworks */ = {
+=======
+		81196ABB1FACB5500011E690 /* Frameworks */ = {
+>>>>>>> refs/remotes/origin/master
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+<<<<<<< HEAD
 		81F6ACB21FACB72200920F3C /* Frameworks */ = {
+=======
+		81196AC61FACB5500011E690 /* Frameworks */ = {
+>>>>>>> refs/remotes/origin/master
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,6 +131,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+<<<<<<< HEAD
 		81F6AC8D1FACB72200920F3C = {
 			isa = PBXGroup;
 			children = (
@@ -93,10 +149,30 @@
 				81F6AC961FACB72200920F3C /* Halo.app */,
 				81F6ACAA1FACB72200920F3C /* HaloTests.xctest */,
 				81F6ACB51FACB72200920F3C /* HaloUITests.xctest */,
+=======
+		81196AA11FACB5500011E690 = {
+			isa = PBXGroup;
+			children = (
+				81196ADB1FACB5FB0011E690 /* README.md */,
+				81196AAC1FACB5500011E690 /* Halo */,
+				81196AC11FACB5500011E690 /* HaloTests */,
+				81196ACC1FACB5500011E690 /* HaloUITests */,
+				81196AAB1FACB5500011E690 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81196AAB1FACB5500011E690 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81196AAA1FACB5500011E690 /* Halo.app */,
+				81196ABE1FACB5500011E690 /* HaloTests.xctest */,
+				81196AC91FACB5500011E690 /* HaloUITests.xctest */,
+>>>>>>> refs/remotes/origin/master
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		81F6AC981FACB72200920F3C /* Halo */ = {
 			isa = PBXGroup;
 			children = (
@@ -106,24 +182,51 @@
 				81F6ACA01FACB72200920F3C /* Assets.xcassets */,
 				81F6ACA21FACB72200920F3C /* LaunchScreen.storyboard */,
 				81F6ACA51FACB72200920F3C /* Info.plist */,
+=======
+		81196AAC1FACB5500011E690 /* Halo */ = {
+			isa = PBXGroup;
+			children = (
+				81196AAD1FACB5500011E690 /* AppDelegate.swift */,
+				81196AAF1FACB5500011E690 /* ViewController.swift */,
+				81196AB11FACB5500011E690 /* Main.storyboard */,
+				81196AB41FACB5500011E690 /* Assets.xcassets */,
+				81196AB61FACB5500011E690 /* LaunchScreen.storyboard */,
+				81196AB91FACB5500011E690 /* Info.plist */,
+>>>>>>> refs/remotes/origin/master
 			);
 			path = Halo;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		81F6ACAD1FACB72200920F3C /* HaloTests */ = {
 			isa = PBXGroup;
 			children = (
 				81F6ACAE1FACB72200920F3C /* HaloTests.swift */,
 				81F6ACB01FACB72200920F3C /* Info.plist */,
+=======
+		81196AC11FACB5500011E690 /* HaloTests */ = {
+			isa = PBXGroup;
+			children = (
+				81196AC21FACB5500011E690 /* HaloTests.swift */,
+				81196AC41FACB5500011E690 /* Info.plist */,
+>>>>>>> refs/remotes/origin/master
 			);
 			path = HaloTests;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		81F6ACB81FACB72200920F3C /* HaloUITests */ = {
 			isa = PBXGroup;
 			children = (
 				81F6ACB91FACB72200920F3C /* HaloUITests.swift */,
 				81F6ACBB1FACB72200920F3C /* Info.plist */,
+=======
+		81196ACC1FACB5500011E690 /* HaloUITests */ = {
+			isa = PBXGroup;
+			children = (
+				81196ACD1FACB5500011E690 /* HaloUITests.swift */,
+				81196ACF1FACB5500011E690 /* Info.plist */,
+>>>>>>> refs/remotes/origin/master
 			);
 			path = HaloUITests;
 			sourceTree = "<group>";
@@ -131,6 +234,7 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+<<<<<<< HEAD
 		81F6AC951FACB72200920F3C /* Halo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 81F6ACBE1FACB72200920F3C /* Build configuration list for PBXNativeTarget "Halo" */;
@@ -138,6 +242,15 @@
 				81F6AC921FACB72200920F3C /* Sources */,
 				81F6AC931FACB72200920F3C /* Frameworks */,
 				81F6AC941FACB72200920F3C /* Resources */,
+=======
+		81196AA91FACB5500011E690 /* Halo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81196AD21FACB5500011E690 /* Build configuration list for PBXNativeTarget "Halo" */;
+			buildPhases = (
+				81196AA61FACB5500011E690 /* Sources */,
+				81196AA71FACB5500011E690 /* Frameworks */,
+				81196AA81FACB5500011E690 /* Resources */,
+>>>>>>> refs/remotes/origin/master
 			);
 			buildRules = (
 			);
@@ -145,6 +258,7 @@
 			);
 			name = Halo;
 			productName = Halo;
+<<<<<<< HEAD
 			productReference = 81F6AC961FACB72200920F3C /* Halo.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -155,10 +269,23 @@
 				81F6ACA61FACB72200920F3C /* Sources */,
 				81F6ACA71FACB72200920F3C /* Frameworks */,
 				81F6ACA81FACB72200920F3C /* Resources */,
+=======
+			productReference = 81196AAA1FACB5500011E690 /* Halo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81196ABD1FACB5500011E690 /* HaloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81196AD51FACB5500011E690 /* Build configuration list for PBXNativeTarget "HaloTests" */;
+			buildPhases = (
+				81196ABA1FACB5500011E690 /* Sources */,
+				81196ABB1FACB5500011E690 /* Frameworks */,
+				81196ABC1FACB5500011E690 /* Resources */,
+>>>>>>> refs/remotes/origin/master
 			);
 			buildRules = (
 			);
 			dependencies = (
+<<<<<<< HEAD
 				81F6ACAC1FACB72200920F3C /* PBXTargetDependency */,
 			);
 			name = HaloTests;
@@ -173,27 +300,56 @@
 				81F6ACB11FACB72200920F3C /* Sources */,
 				81F6ACB21FACB72200920F3C /* Frameworks */,
 				81F6ACB31FACB72200920F3C /* Resources */,
+=======
+				81196AC01FACB5500011E690 /* PBXTargetDependency */,
+			);
+			name = HaloTests;
+			productName = HaloTests;
+			productReference = 81196ABE1FACB5500011E690 /* HaloTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81196AC81FACB5500011E690 /* HaloUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81196AD81FACB5500011E690 /* Build configuration list for PBXNativeTarget "HaloUITests" */;
+			buildPhases = (
+				81196AC51FACB5500011E690 /* Sources */,
+				81196AC61FACB5500011E690 /* Frameworks */,
+				81196AC71FACB5500011E690 /* Resources */,
+>>>>>>> refs/remotes/origin/master
 			);
 			buildRules = (
 			);
 			dependencies = (
+<<<<<<< HEAD
 				81F6ACB71FACB72200920F3C /* PBXTargetDependency */,
 			);
 			name = HaloUITests;
 			productName = HaloUITests;
 			productReference = 81F6ACB51FACB72200920F3C /* HaloUITests.xctest */;
+=======
+				81196ACB1FACB5500011E690 /* PBXTargetDependency */,
+			);
+			name = HaloUITests;
+			productName = HaloUITests;
+			productReference = 81196AC91FACB5500011E690 /* HaloUITests.xctest */;
+>>>>>>> refs/remotes/origin/master
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
+<<<<<<< HEAD
 		81F6AC8E1FACB72200920F3C /* Project object */ = {
+=======
+		81196AA21FACB5500011E690 /* Project object */ = {
+>>>>>>> refs/remotes/origin/master
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = C4Q;
 				TargetAttributes = {
+<<<<<<< HEAD
 					81F6AC951FACB72200920F3C = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
@@ -211,6 +367,25 @@
 				};
 			};
 			buildConfigurationList = 81F6AC911FACB72200920F3C /* Build configuration list for PBXProject "Halo" */;
+=======
+					81196AA91FACB5500011E690 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					81196ABD1FACB5500011E690 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 81196AA91FACB5500011E690;
+					};
+					81196AC81FACB5500011E690 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 81196AA91FACB5500011E690;
+					};
+				};
+			};
+			buildConfigurationList = 81196AA51FACB5500011E690 /* Build configuration list for PBXProject "Halo" */;
+>>>>>>> refs/remotes/origin/master
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -218,6 +393,7 @@
 				en,
 				Base,
 			);
+<<<<<<< HEAD
 			mainGroup = 81F6AC8D1FACB72200920F3C;
 			productRefGroup = 81F6AC971FACB72200920F3C /* Products */;
 			projectDirPath = "";
@@ -226,11 +402,22 @@
 				81F6AC951FACB72200920F3C /* Halo */,
 				81F6ACA91FACB72200920F3C /* HaloTests */,
 				81F6ACB41FACB72200920F3C /* HaloUITests */,
+=======
+			mainGroup = 81196AA11FACB5500011E690;
+			productRefGroup = 81196AAB1FACB5500011E690 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81196AA91FACB5500011E690 /* Halo */,
+				81196ABD1FACB5500011E690 /* HaloTests */,
+				81196AC81FACB5500011E690 /* HaloUITests */,
+>>>>>>> refs/remotes/origin/master
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+<<<<<<< HEAD
 		81F6AC941FACB72200920F3C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -243,13 +430,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		81F6ACA81FACB72200920F3C /* Resources */ = {
+=======
+		81196AA81FACB5500011E690 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81196AB81FACB5500011E690 /* LaunchScreen.storyboard in Resources */,
+				81196AB51FACB5500011E690 /* Assets.xcassets in Resources */,
+				81196ADC1FACB5FB0011E690 /* README.md in Resources */,
+				81196AB31FACB5500011E690 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81196ABC1FACB5500011E690 /* Resources */ = {
+>>>>>>> refs/remotes/origin/master
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+<<<<<<< HEAD
 		81F6ACB31FACB72200920F3C /* Resources */ = {
+=======
+		81196AC71FACB5500011E690 /* Resources */ = {
+>>>>>>> refs/remotes/origin/master
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -259,6 +464,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+<<<<<<< HEAD
 		81F6AC921FACB72200920F3C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -281,12 +487,37 @@
 			buildActionMask = 2147483647;
 			files = (
 				81F6ACBA1FACB72200920F3C /* HaloUITests.swift in Sources */,
+=======
+		81196AA61FACB5500011E690 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81196AB01FACB5500011E690 /* ViewController.swift in Sources */,
+				81196AAE1FACB5500011E690 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81196ABA1FACB5500011E690 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81196AC31FACB5500011E690 /* HaloTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81196AC51FACB5500011E690 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81196ACE1FACB5500011E690 /* HaloUITests.swift in Sources */,
+>>>>>>> refs/remotes/origin/master
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+<<<<<<< HEAD
 		81F6ACAC1FACB72200920F3C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 81F6AC951FACB72200920F3C /* Halo */;
@@ -296,22 +527,47 @@
 			isa = PBXTargetDependency;
 			target = 81F6AC951FACB72200920F3C /* Halo */;
 			targetProxy = 81F6ACB61FACB72200920F3C /* PBXContainerItemProxy */;
+=======
+		81196AC01FACB5500011E690 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81196AA91FACB5500011E690 /* Halo */;
+			targetProxy = 81196ABF1FACB5500011E690 /* PBXContainerItemProxy */;
+		};
+		81196ACB1FACB5500011E690 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81196AA91FACB5500011E690 /* Halo */;
+			targetProxy = 81196ACA1FACB5500011E690 /* PBXContainerItemProxy */;
+>>>>>>> refs/remotes/origin/master
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+<<<<<<< HEAD
 		81F6AC9D1FACB72200920F3C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				81F6AC9E1FACB72200920F3C /* Base */,
+=======
+		81196AB11FACB5500011E690 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81196AB21FACB5500011E690 /* Base */,
+>>>>>>> refs/remotes/origin/master
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		81F6ACA21FACB72200920F3C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				81F6ACA31FACB72200920F3C /* Base */,
+=======
+		81196AB61FACB5500011E690 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81196AB71FACB5500011E690 /* Base */,
+>>>>>>> refs/remotes/origin/master
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -319,7 +575,11 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+<<<<<<< HEAD
 		81F6ACBC1FACB72200920F3C /* Debug */ = {
+=======
+		81196AD01FACB5500011E690 /* Debug */ = {
+>>>>>>> refs/remotes/origin/master
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -376,7 +636,11 @@
 			};
 			name = Debug;
 		};
+<<<<<<< HEAD
 		81F6ACBD1FACB72200920F3C /* Release */ = {
+=======
+		81196AD11FACB5500011E690 /* Release */ = {
+>>>>>>> refs/remotes/origin/master
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -426,35 +690,55 @@
 			};
 			name = Release;
 		};
+<<<<<<< HEAD
 		81F6ACBF1FACB72200920F3C /* Debug */ = {
+=======
+		81196AD31FACB5500011E690 /* Debug */ = {
+>>>>>>> refs/remotes/origin/master
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Halo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+<<<<<<< HEAD
 				PRODUCT_BUNDLE_IDENTIFIER = nyc.c4q.AC4.3.Halo;
+=======
+				PRODUCT_BUNDLE_IDENTIFIER = ac.c4q.nyc.Halo;
+>>>>>>> refs/remotes/origin/master
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
+<<<<<<< HEAD
 		81F6ACC01FACB72200920F3C /* Release */ = {
+=======
+		81196AD41FACB5500011E690 /* Release */ = {
+>>>>>>> refs/remotes/origin/master
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Halo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+<<<<<<< HEAD
 				PRODUCT_BUNDLE_IDENTIFIER = nyc.c4q.AC4.3.Halo;
+=======
+				PRODUCT_BUNDLE_IDENTIFIER = ac.c4q.nyc.Halo;
+>>>>>>> refs/remotes/origin/master
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
+<<<<<<< HEAD
 		81F6ACC21FACB72200920F3C /* Debug */ = {
+=======
+		81196AD61FACB5500011E690 /* Debug */ = {
+>>>>>>> refs/remotes/origin/master
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -462,7 +746,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HaloTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+<<<<<<< HEAD
 				PRODUCT_BUNDLE_IDENTIFIER = nyc.c4q.AC4.3.HaloTests;
+=======
+				PRODUCT_BUNDLE_IDENTIFIER = ac.c4q.nyc.HaloTests;
+>>>>>>> refs/remotes/origin/master
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -470,7 +758,11 @@
 			};
 			name = Debug;
 		};
+<<<<<<< HEAD
 		81F6ACC31FACB72200920F3C /* Release */ = {
+=======
+		81196AD71FACB5500011E690 /* Release */ = {
+>>>>>>> refs/remotes/origin/master
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -478,7 +770,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HaloTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+<<<<<<< HEAD
 				PRODUCT_BUNDLE_IDENTIFIER = nyc.c4q.AC4.3.HaloTests;
+=======
+				PRODUCT_BUNDLE_IDENTIFIER = ac.c4q.nyc.HaloTests;
+>>>>>>> refs/remotes/origin/master
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -486,14 +782,22 @@
 			};
 			name = Release;
 		};
+<<<<<<< HEAD
 		81F6ACC51FACB72200920F3C /* Debug */ = {
+=======
+		81196AD91FACB5500011E690 /* Debug */ = {
+>>>>>>> refs/remotes/origin/master
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HaloUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+<<<<<<< HEAD
 				PRODUCT_BUNDLE_IDENTIFIER = nyc.c4q.AC4.3.HaloUITests;
+=======
+				PRODUCT_BUNDLE_IDENTIFIER = ac.c4q.nyc.HaloUITests;
+>>>>>>> refs/remotes/origin/master
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -501,14 +805,22 @@
 			};
 			name = Debug;
 		};
+<<<<<<< HEAD
 		81F6ACC61FACB72200920F3C /* Release */ = {
+=======
+		81196ADA1FACB5500011E690 /* Release */ = {
+>>>>>>> refs/remotes/origin/master
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HaloUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+<<<<<<< HEAD
 				PRODUCT_BUNDLE_IDENTIFIER = nyc.c4q.AC4.3.HaloUITests;
+=======
+				PRODUCT_BUNDLE_IDENTIFIER = ac.c4q.nyc.HaloUITests;
+>>>>>>> refs/remotes/origin/master
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -519,43 +831,79 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+<<<<<<< HEAD
 		81F6AC911FACB72200920F3C /* Build configuration list for PBXProject "Halo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				81F6ACBC1FACB72200920F3C /* Debug */,
 				81F6ACBD1FACB72200920F3C /* Release */,
+=======
+		81196AA51FACB5500011E690 /* Build configuration list for PBXProject "Halo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81196AD01FACB5500011E690 /* Debug */,
+				81196AD11FACB5500011E690 /* Release */,
+>>>>>>> refs/remotes/origin/master
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+<<<<<<< HEAD
 		81F6ACBE1FACB72200920F3C /* Build configuration list for PBXNativeTarget "Halo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				81F6ACBF1FACB72200920F3C /* Debug */,
 				81F6ACC01FACB72200920F3C /* Release */,
+=======
+		81196AD21FACB5500011E690 /* Build configuration list for PBXNativeTarget "Halo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81196AD31FACB5500011E690 /* Debug */,
+				81196AD41FACB5500011E690 /* Release */,
+>>>>>>> refs/remotes/origin/master
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+<<<<<<< HEAD
 		81F6ACC11FACB72200920F3C /* Build configuration list for PBXNativeTarget "HaloTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				81F6ACC21FACB72200920F3C /* Debug */,
 				81F6ACC31FACB72200920F3C /* Release */,
+=======
+		81196AD51FACB5500011E690 /* Build configuration list for PBXNativeTarget "HaloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81196AD61FACB5500011E690 /* Debug */,
+				81196AD71FACB5500011E690 /* Release */,
+>>>>>>> refs/remotes/origin/master
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+<<<<<<< HEAD
 		81F6ACC41FACB72200920F3C /* Build configuration list for PBXNativeTarget "HaloUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				81F6ACC51FACB72200920F3C /* Debug */,
 				81F6ACC61FACB72200920F3C /* Release */,
+=======
+		81196AD81FACB5500011E690 /* Build configuration list for PBXNativeTarget "HaloUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81196AD91FACB5500011E690 /* Debug */,
+				81196ADA1FACB5500011E690 /* Release */,
+>>>>>>> refs/remotes/origin/master
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
+<<<<<<< HEAD
 	rootObject = 81F6AC8E1FACB72200920F3C /* Project object */;
+=======
+	rootObject = 81196AA21FACB5500011E690 /* Project object */;
+>>>>>>> refs/remotes/origin/master
 }
